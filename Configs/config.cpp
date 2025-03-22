@@ -1,6 +1,23 @@
-tlrRecipesTest_items
+#define _ARMA_
 
-tlr_Fabric_Colorbase
+class CfgPatches
+{
+	class tlrRecipesTest_items
+	{
+		units[] = {};
+    	weapons[] = {};
+		requiredVersion = 0.1;
+		requiredAddons[] = {"tlrRecipesTest"};
+	};
+};
+class CfgVehicles
+{
+    class tlr_Fabric_Colorbase {};
+    class tlr_PJTop_Colorbase {};
+};
+
+
+
 
 tlr_fabric_greycotton
 tlr_fabric_purplecotton
@@ -12,9 +29,6 @@ tlr_fabric_blacksilk
 tlr_fabric_pinksilk
 tlr_fabric_redsilk
 
-
-
-tlr_PJTop_Colorbase
 
 tlr_PJTop_greycotton
 tlr_PJTop_purplecotton
