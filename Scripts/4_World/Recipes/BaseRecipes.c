@@ -44,7 +44,7 @@ class Craft_Tailored_BaseRecipe extends RecipeBase
 		//----------------------------------------------------------------------------------------------------------------------
 
 		//result1
-		// AddResult("Dada_RawFoodCan_LSVeggies");//add results here
+		//AddResult("tlr_Fabric_");
 
 		m_ResultSetFullQuantity[0] = -1;//true = set full quantity, false = do nothing
 		m_ResultSetQuantity[0] = -1;//-1 = do nothing
