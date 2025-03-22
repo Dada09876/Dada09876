@@ -22,7 +22,9 @@ class Craft_Tailored_BaseRecipe extends RecipeBase
 		//----------------------------------------------------------------------------------------------------------------------
 
 		//INGREDIENTS
-		//ingredient 1
+		//ingredient 0
+		
+		InsertIngredient(0,"tlr_Fabric_Colorbase");
 
 		m_IngredientAddHealth[0] = 0;// 0 = do nothing
 		m_IngredientSetHealth[0] = -1; // -1 = do nothing
@@ -30,7 +32,9 @@ class Craft_Tailored_BaseRecipe extends RecipeBase
 		m_IngredientDestroy[0] = true;//true = destroy, false = do nothing
 		m_IngredientUseSoftSkills[0] = false;// set 'true' to allow modification of the values by softskills on this ingredient
 
-		//ingredient 2
+		//ingredient 1
+		
+		InsertIngredient(0,"sewingkit");
 
 		m_IngredientAddHealth[1] = 0;// 0 = do nothing
 		m_IngredientSetHealth[1] = -1; // -1 = do nothing
