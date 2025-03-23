@@ -33,7 +33,7 @@ class CfgVehicles
 		hiddenSelections[]=
 		{"camo"};
 		hiddenSelectionsTextures[]=
-		{"dz\gear\camping\data\flag_chern_co.paa"}
+		{"\dz\gear\camping\Data\Flag_NAPA_co.paa"}
 		color = "base";
 	};
 
@@ -51,7 +51,7 @@ class CfgVehicles
 		scope=2;
 		displayName="Grey Cotton Pajama Top";
 		hiddenSelectionsTextures[]=
-		{"\dz\gear\camping\Data\Flag_Ched_co.paa"}
+		{"\dz\gear\camping\Data\Flag_CDF_co.paa"}
 		color = "greycotton";
 	};
 };
