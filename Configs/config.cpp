@@ -12,13 +12,53 @@ class CfgPatches
 };
 class CfgVehicles
 {
-    class tlr_Fabric_Colorbase {};
-    class tlr_PJTop_Colorbase {};
+	class Flag_Base;
+	
+	class tlr_Fabric_Colorbase : Flag_Base
+	{
+		scope=2;
+		displayName="Fabric";
+		descriptionShort="Tailor Fabric_Base";
+		hiddenSelections[]=
+		{"camo"};
+		hiddenSelectionsTextures[]=
+		{"dz\gear\camping\data\flag_chern_co.paa"}
+		color = "base";
+	};
+
+	class tlr_PJTop_Colorbase : Flag_Base
+	{
+		scope=2;
+		displayName="Pajama Top";
+		hiddenSelections[]=
+		{"camo"};
+		hiddenSelectionsTextures[]=
+		{"dz\gear\camping\data\flag_chern_co.paa"}
+		color = "base";
+	};
+
+	class tlr_Fabric_greycotton : tlr_Fabric_Colorbase
+	{
+		scope=2;
+		displayName="Grey Cotton Fabric";
+		hiddenSelectionsTextures[]=
+		{"\dz\gear\camping\Data\Flag_Ched_co.paa"}
+		color = "greycotton";
+	};
+
+	class tlr_PJTop_greycotton: tlr_PJTop_Colorbase
+	{
+		scope=2;
+		displayName="Grey Cotton Pajama Top";
+		hiddenSelectionsTextures[]=
+		{"\dz\gear\camping\Data\Flag_Ched_co.paa"}
+		color = "greycotton";
+	};
 };
 
 
 
-
+/*
 tlr_Fabric_greycotton
 tlr_Fabric_purplecotton
 tlr_Fabric_yellowcotton 
@@ -39,4 +79,4 @@ tlr_PJTop_tartanflannel
 tlr_PJTop_blacksilk
 tlr_PJTop_pinksilk
 tlr_PJTop_redsilk
-
+*/
