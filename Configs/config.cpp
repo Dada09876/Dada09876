@@ -19,15 +19,15 @@ class CfgVehicles
 
 
 
-tlr_fabric_greycotton
-tlr_fabric_purplecotton
-tlr_fabric_yellowcotton 
-tlr_fabric_aquaflannel
-tlr_fabric_peachflannel
-tlr_fabric_tartanflannel
-tlr_fabric_blacksilk
-tlr_fabric_pinksilk
-tlr_fabric_redsilk
+tlr_Fabric_greycotton
+tlr_Fabric_purplecotton
+tlr_Fabric_yellowcotton 
+tlr_Fabric_aquaflannel
+tlr_Fabric_peachflannel
+tlr_Fabric_tartanflannel
+tlr_Fabric_blacksilk
+tlr_Fabric_pinksilk
+tlr_Fabric_redsilk
 
 
 tlr_PJTop_greycotton
