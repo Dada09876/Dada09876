@@ -11,3 +11,5 @@ modded class PluginRecipesManager
     //Tailored Clothes
 
     RegisterRecipe(new Craft_tlr_PJTop);
+  };
+};
