@@ -18,7 +18,7 @@ class CfgVehicles
 	{
 		scope=2;
 		displayName="Fabric";
-		descriptionShort="Tailor Fabric_Base";
+		descriptionShort="Tailor Fabric";
 		hiddenSelections[]=
 		{"camo"};
 		hiddenSelectionsTextures[]=
