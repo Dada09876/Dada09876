@@ -23,7 +23,6 @@ class CfgVehicles
 		{"camo"};
 		hiddenSelectionsTextures[]=
 		{"dz\gear\camping\data\flag_chern_co.paa"}
-		color = "base";
 	};
 
 	class tlr_PJTop_Colorbase : Flag_Base
@@ -34,7 +33,6 @@ class CfgVehicles
 		{"camo"};
 		hiddenSelectionsTextures[]=
 		{"\dz\gear\camping\Data\Flag_NAPA_co.paa"}
-		color = "base";
 	};
 
 	class tlr_Fabric_greycotton : tlr_Fabric_Colorbase
