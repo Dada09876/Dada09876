@@ -3,16 +3,23 @@ class Craft_tlr_PJTop extends Craft_Tailored_BaseRecipe
 	override void Init()
 	{
 		m_Name = "Craft Pajama Top";
+		m_IsInstaRecipe = false;//should this recipe be performed instantly without animation
+		m_AnimationLength = 1;//animation length in relative time units
+		m_Specialty = -0.02;// value > 0 for roughness, value < 0 for precision
 
 		//conditions
-		
+		m_MinDamageIngredient[0] = -1;//-1 = disable check
+		m_MaxDamageIngredient[0] = 3;//-1 = disable check
+
 		m_MinQuantityIngredient[0] = -1;//-1 = disable check
 		m_MaxQuantityIngredient[0] = -1;//-1 = disable check
 
+		m_MinDamageIngredient[1] = -1;//-1 = disable check
+		m_MaxDamageIngredient[1] = 3;//-1 = disable check
+
 		m_MinQuantityIngredient[1] = 70;//-1 = disable check
 		m_MaxQuantityIngredient[1] = -1;//-1 = disable check
-		//----------------------------------------------------------------------------------------------------------------------
-
+		
 		//INGREDIENTS
 		//ingredient 0
 		
@@ -53,7 +60,7 @@ class Craft_tlr_PJTop extends Craft_Tailored_BaseRecipe
 	override bool CanDo(ItemBase ingredients[], PlayerBase player)//final check for recipe's validity
 	{  
 		return true
-    }
+ }
 
 	override void Do(ItemBase ingredients[], PlayerBase player,array<ItemBase> results, float specialty_weight)//gets called upon recipe's completion
 	{
@@ -66,16 +73,23 @@ class Craft_tlr_PJPants extends Craft_Tailored_BaseRecipe
 	override void Init()
 	{
 		m_Name = "Craft Pajama Pants";
+		m_IsInstaRecipe = false;//should this recipe be performed instantly without animation
+		m_AnimationLength = 1;//animation length in relative time units
+		m_Specialty = -0.02;// value > 0 for roughness, value < 0 for precision
 
 		//conditions
-		
+		m_MinDamageIngredient[0] = -1;//-1 = disable check
+		m_MaxDamageIngredient[0] = 3;//-1 = disable check
+
 		m_MinQuantityIngredient[0] = -1;//-1 = disable check
 		m_MaxQuantityIngredient[0] = -1;//-1 = disable check
 
-		m_MinQuantityIngredient[1] = 70;//-1 = disable check
-		m_MaxQuantityIngredient[1] = -1;//-1 = disable check
-		//----------------------------------------------------------------------------------------------------------------------
+		m_MinDamageIngredient[1] = -1;//-1 = disable check
+		m_MaxDamageIngredient[1] = 3;//-1 = disable check
 
+		m_MinQuantityIngredient[1] = 70;//-1 = disable check
+		m_MaxQuantityIngredient[1] = -1;//-1 = disable 
+		
 		//INGREDIENTS
 		//ingredient 0
 		
