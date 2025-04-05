@@ -1,4 +1,4 @@
-class Craft_tlr_PJTop extends Craft_Tailored_BaseRecipe
+class Craft_tlr_PJTop extends RecipeBase
 {
 	override void Init()
 	{
@@ -68,7 +68,7 @@ class Craft_tlr_PJTop extends Craft_Tailored_BaseRecipe
 	}
 };
 
-class Craft_tlr_PJPants extends Craft_Tailored_BaseRecipe
+class Craft_tlr_PJPants extends RecipeBase
 {
 	override void Init()
 	{
