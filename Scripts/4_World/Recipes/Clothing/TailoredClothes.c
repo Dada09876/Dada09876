@@ -36,5 +36,5 @@ class Craft_tlr_PJTop extends Craft_Tailored_BaseRecipe
 		//----------------------------------------------------------------------------------------------------------------------
 
 		//result1
-		AddResult("tlr_Fabric_");
+		AddResult("tlr_PJTop_");
 };
